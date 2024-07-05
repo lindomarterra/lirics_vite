@@ -1,0 +1,12 @@
+/*  imagine component  */
+.next_arrow {    
+    transition: linear all 0.9s ;
+}
+
+.next_arrow span{
+    display: none;
+}
+
+.next_arrow:hover span {
+    display: block;
+}
