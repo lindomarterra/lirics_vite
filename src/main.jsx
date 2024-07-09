@@ -11,6 +11,7 @@ import ZiggyStardust from './page/ziggystardust.jsx'
 import Zombie from './page/zombie.jsx'
 import TheKillingMon from './page/thekillingtime.jsx'
 import LoveisMagick from './page/loveismagick.jsx'
+import LoveisMagick2 from './page/loveismagick2.jsx'
 import Starman from './page/starman.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="ziggystardust" element={<ZiggyStardust />} />
           <Route path="imagine" element={<Imagine />} />
           <Route path="loveismagick" element={<LoveisMagick />} />
+          <Route path="loveismagick2" element={<LoveisMagick2/>} />
           <Route path="zombie" element={<Zombie />} />
           <Route path="thekillingmon" element={<TheKillingMon />} />
           <Route path="starman" element={<Starman/>} />

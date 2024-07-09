@@ -8,19 +8,20 @@ const Header = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if (!lirics) return  alert('please type some lirics in the field!')
+    if (!lirics) return alert('please type some lirics in the field!')
     if (
       lirics === 'lifeonmars' ||
       lirics === 'ziggystardust' ||
       lirics === 'imagine' ||
       lirics === 'zombie' ||
       lirics === 'thekillingmon' ||
-      lirics === 'loveismagick' || 
+      lirics === 'loveismagick' ||
+      lirics === 'loveismagick2' ||
       lirics === 'starman'
     ) {
       navigate(`/${lirics}`)
     } else {
-        alert('not found!')
+      alert('not found!')
     }
     setLirics('')
   }
@@ -66,6 +67,15 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link
+                to="/loveismagick2"
+                target="_self"
+                className="dropdown-item"
+              >
+                Love is Magick-2
+              </Link>
+            </li>
+            <li>
               <Link to="/zombie" target="_self" className="dropdown-item">
                 Zombie
               </Link>
@@ -80,11 +90,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/starman"
-                target="_self"
-                className="dropdown-item"
-              >
+              <Link to="/starman" target="_self" className="dropdown-item">
                 Starman
               </Link>
             </li>

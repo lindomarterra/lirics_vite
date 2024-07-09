@@ -5,6 +5,7 @@ import './general.css'
 import { Link } from 'react-router-dom'
 
 const LoveisMagick = () => {
+ 
   return (
     <div className="container">
       <h1 className="text-end fst-italic fs-6 p-2 mb-4"> Love is Magick </h1>
@@ -64,12 +65,12 @@ const LoveisMagick = () => {
 
         <div className="arrowRight col-2">
           <Link
-            to="/zombie"
+            to="/loveismagick2"
             target="_self"
             className="next_arrow btn btn-outline-light d-flex align-items-center position-absolute end-0 top-50 me-0 pe-0 "
           >
-            <span>Zombie</span>
-            <MdOutlineKeyboardDoubleArrowRight className="fs-3" />
+            <span>Love is Magick-2</span>
+            <MdOutlineKeyboardDoubleArrowRight className="fs-3"/>
           </Link>
         </div>
       </div>
