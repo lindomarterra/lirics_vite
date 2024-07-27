@@ -120,7 +120,7 @@ const Starman = () => {
                     className="text-decoration-none"
                     title="deixe as crianças dançarem"
                   >
-                    and all the children boogie
+                    Let all the children boogie
                   </abbr>
                 </p>
               </div>
@@ -191,7 +191,7 @@ const Starman = () => {
               <div className="pb-3">
                 <p> Let the children lose it</p>
                 <p> Let the children use it</p>
-                <p> and all the children boogie</p>
+                <p> Let all the children boogie</p>
               </div>
               <div className="pb-3">
                 <p>A starman waiting in the sky</p>
