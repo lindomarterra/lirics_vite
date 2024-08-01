@@ -15,8 +15,8 @@ const Header = () => {
       lirics === 'imagine' ||
       lirics === 'zombie' ||
       lirics === 'thekillingmon' ||
+      lirics === 'lovestreet' ||
       lirics === 'loveismagick' ||
-      lirics === 'loveismagick2' ||
       lirics === 'starman'
     ) {
       navigate(`/${lirics}`)
@@ -62,17 +62,17 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/loveismagick" target="_self" className="dropdown-item">
-                Love is Magick
+              <Link to="/lovestreet" target="_self" className="dropdown-item">
+                Love Street
               </Link>
             </li>
             <li>
               <Link
-                to="/loveismagick2"
+                to="/loveismagick"
                 target="_self"
                 className="dropdown-item"
               >
-                Love is Magick-2
+                Love is Magick
               </Link>
             </li>
             <li>

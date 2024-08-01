@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Starman = () => {
   return (
     <div className="container">
-      <h1 className="text-end fst-italic fs-6 p-2 mb-4"> Starman </h1>
+      <h1 className="text-end fst-italic fs-6 p-2 mb-4"> Starman (F) </h1>
 
       <div className="d-flex justify-content-center ">
         <div className="arrowLeft col-1 ">

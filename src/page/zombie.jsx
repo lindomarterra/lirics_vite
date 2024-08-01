@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Zombie = () => {
   return (
     <div className="container">
-      <h1 className="text-end fst-italic fs-6 p-2 mb-4"> Zombie (tone Em) </h1>
+      <h1 className="text-end fst-italic fs-6 p-2 mb-4"> Zombie (Em) </h1>
 
       <div className='d-flex justify-content-center'>
 

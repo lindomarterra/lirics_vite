@@ -8,7 +8,7 @@ const TheKillingTime = () => {
   return (
     <div className="container">
       <h1 className="text-end fst-italic fs-6 p-2 mb-4">
-        The Killing Time (tone C)
+        The Killing Time (C)
       </h1>
 
       <div className='d-flex justify-content-center'>

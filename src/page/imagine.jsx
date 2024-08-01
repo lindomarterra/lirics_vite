@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Imagine = () => {
   return (
     <div className="container">
-      <h1 className="text-end fst-italic fs-6 p-2 mb-4"> Imagine (tone c) </h1>
+      <h1 className="text-end fst-italic fs-6 p-2 mb-4"> Imagine (C) </h1>
 
       <div className="d-flex justify-content-center">
         <div className="arrowLeft col-2 ">
@@ -138,11 +138,11 @@ const Imagine = () => {
 
         <div className="arrowRight col-2">
           <Link
-            to="/loveismagick"
+            to="/lovestreet"
             target="_self"
             className="next_arrow btn btn-outline-light d-flex align-items-center position-absolute end-0 top-50 me-0 pe-0 "
           >
-            <span>Love is Magick</span>
+            <span>Love Street</span>
             <MdOutlineKeyboardDoubleArrowRight className="fs-3" />
           </Link>
         </div>
