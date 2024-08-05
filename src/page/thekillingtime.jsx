@@ -67,7 +67,7 @@ const TheKillingTime = () => {
                 <p>
                   <abbr
                     className="text-decoration-none"
-                    title="Involuntariamente meu"
+                    title="Involuntariamente/relutantemente meu"
                   >
                     Unwillingly mine
                   </abbr>
@@ -85,7 +85,7 @@ const TheKillingTime = () => {
                 <p>
                   <abbr
                     className="text-decoration-none"
-                    title="através do grosso e fino"
+                    title="Nas boas e nas más/nos autos e baixos"
                   >
                     Through the thick and thin
                   </abbr>
@@ -168,7 +168,7 @@ const TheKillingTime = () => {
                 <p>
                   <abbr
                     className="text-decoration-none"
-                    title="através do grosso e fino"
+                    title="Nas boas e nas más/nos autos e baixos"
                   >
                     Through the thick and thin
                   </abbr>
