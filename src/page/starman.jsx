@@ -218,11 +218,11 @@ const Starman = () => {
 
         <div className="arrowRight col-1">
           <Link
-            to="#"
+            to="/lifeonmars"
             target="_self"
             className="next_arrow btn btn-outline-light d-flex align-items-center position-absolute end-0 top-50 me-1 pe-0 "
           >
-            <span> NEXT </span>
+            <span> Life on Mars </span>
             <MdOutlineKeyboardDoubleArrowRight className="fs-3" />
           </Link>
         </div>
