@@ -124,11 +124,11 @@ const Zombie = () => {
 
         <div className="arrowRight col-2">
           <Link
-            to="/thekillingmon"
+            to="/thekillingmoon"
             target="_self"
             className="next_arrow btn btn-outline-light d-flex align-items-center position-absolute end-0 top-50 me-1 pe-0 "
           >
-            <span>The killing mon</span>
+            <span>The killing moon</span>
             <MdOutlineKeyboardDoubleArrowRight className="fs-3" />
           </Link>
         </div>

@@ -11,7 +11,7 @@ const TheKillingTime = () => {
         The Killing Time (C)
       </h1>
 
-      <div className='d-flex justify-content-center'>
+      <div className="d-flex justify-content-center">
         <div className="arrowLeft col-2 ">
           <Link
             to="/zombie"
@@ -22,7 +22,7 @@ const TheKillingTime = () => {
             <MdOutlineKeyboardDoubleArrowLeft className="fs-3" />
           </Link>
         </div>
-        <div className='col-8'>
+        <div className="col-8">
           <div style={{ lineHeight: '1rem' }} className="row">
             <div className="col-md-6">
               <div className="pb-3">
@@ -59,7 +59,10 @@ const TheKillingTime = () => {
                   </abbr>
                 </p>
                 <p>
-                  <abbr className="text-decoration-none" title="é hora de matar">
+                  <abbr
+                    className="text-decoration-none"
+                    title="é hora de matar"
+                  >
                     {' '}
                     The killing time{' '}
                   </abbr>
@@ -143,7 +146,10 @@ const TheKillingTime = () => {
                   </abbr>
                 </p>
                 <p>
-                  <abbr className="text-decoration-none" title="A lua assassina">
+                  <abbr
+                    className="text-decoration-none"
+                    title="A lua assassina"
+                  >
                     The killing moon
                   </abbr>
                 </p>

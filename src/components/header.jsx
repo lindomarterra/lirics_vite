@@ -1,118 +1,27 @@
-import { useState } from 'react'
 import { BsSearch } from 'react-icons/bs'
-import { Link, useNavigate } from 'react-router-dom'
+import { GiGuitarHead } from 'react-icons/gi'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
-  const [lirics, setLirics] = useState('')
-  const navigate = useNavigate()
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    if (!lirics) return alert('please type some lirics in the field!')
-    if (
-      lirics === 'lifeonmars' ||
-      lirics === 'ziggystardust' ||
-      lirics === 'imagine' ||
-      lirics === 'zombie' ||
-      lirics === 'thekillingmon' ||
-      lirics === 'lovestreet' ||
-      lirics === 'loveismagick' ||
-      lirics === 'starman'
-    ) {
-      navigate(`/${lirics}`)
-    } else {
-      alert('not found!')
-    }
-    setLirics('')
-  }
-
   return (
-    <nav style={{ backgroundColor: '#121212' }} className="navbar py-2">
-      <div className="container">
-        <div className="dropdown-menu-end">
-          <div
-            style={{ color: '#ffc107', cursor: 'pointer' }}
-            className="dropdown-toggle fw-bolder text-uppercase "
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Lirics
-          </div>
-          <ul
-            style={{ backgroundColor: 'rgba(255, 166, 0, 0.699)' }}
-            className="dropdown-menu p-0"
-          >
-            <li>
-              <Link to="/lifeonmars" target="_self" className="dropdown-item">
-                Life on Mars?
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/ziggystardust"
-                target="_self"
-                className="dropdown-item"
-              >
-                Ziggy Stardust
-              </Link>
-            </li>
-            <li>
-              <Link to="/imagine" target="_self" className="dropdown-item">
-                Imagine
-              </Link>
-            </li>
-            <li>
-              <Link to="/lovestreet" target="_self" className="dropdown-item">
-                Love Street
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/loveismagick"
-                target="_self"
-                className="dropdown-item"
-              >
-                Love is Magick
-              </Link>
-            </li>
-            <li>
-              <Link to="/zombie" target="_self" className="dropdown-item">
-                Zombie
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/thekillingmon"
-                target="_self"
-                className="dropdown-item"
-              >
-                The Killing Mon
-              </Link>
-            </li>
-            <li>
-              <Link to="/starman" target="_self" className="dropdown-item">
-                Starman
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        <form onSubmit={handleSubmit} className="d-flex" role="search">
+    <header style={{ backgroundColor: '#121212' }} className="p-2">
+      <nav className="d-flex justify-content-around align-items-center">
+        <Link to={'/'} target='_self' className='btn btn-sm btn-outline-secondary' >
+          <GiGuitarHead className='fs-3' />
+        </Link>
+        <form className='d-flex' >
           <input
-            type="search"
-            style={{ fontSize: '1rem' }}
-            className="form-control me-2"
-            placeholder="search"
-            onChange={(e) => setLirics(e.target.value)}
-            value={lirics}
+            type="text"
+            placeholder="type some song..."
+            className="fst-italic form-control me-1 "
+            style={{ fontSize: '14px' }}
           />
-
-          <button type="submit" className="btn btn-outline-warning">
-            <BsSearch className="d-flex  fw-bolder" />
+          <button className='btn btn-sm btn-outline-secondary'>
+              <BsSearch className='fs-3'/>
           </button>
         </form>
-      </div>
-    </nav>
+      </nav>
+    </header>
   )
 }
 

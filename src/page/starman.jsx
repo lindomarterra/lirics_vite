@@ -12,11 +12,11 @@ const Starman = () => {
       <div className="d-flex justify-content-center ">
         <div className="arrowLeft col-1 ">
           <Link
-            to="/thekillingmon"
+            to="/thekillingmoon"
             target="_self"
             className="next_arrow btn btn-outline-light d-flex align-items-center position-absolute start-0 top-50 me-0 pe-0 "
           >
-            <span>The Killing Mon</span>
+            <span>The Killing Moon</span>
             <MdOutlineKeyboardDoubleArrowLeft className="fs-3" />
           </Link>
         </div>

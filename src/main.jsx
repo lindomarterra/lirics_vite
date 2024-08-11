@@ -9,10 +9,11 @@ import Imagine from './page/imagine.jsx'
 import LifeOnMars from './page/lifeonmars.jsx'
 import ZiggyStardust from './page/ziggystardust.jsx'
 import Zombie from './page/zombie.jsx'
-import TheKillingMon from './page/thekillingtime.jsx'
+import TheKillingMoon from './page/thekillingmoon.jsx'
 import LoveStreet from './page/lovestreet.jsx'
 import LoveisMagick from './page/loveismagick.jsx'
 import Starman from './page/starman.jsx'
+import PerfectDay from './page/perfectday.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -24,10 +25,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="ziggystardust" element={<ZiggyStardust />} />
           <Route path="imagine" element={<Imagine />} />
           <Route path="lovestreet" element={<LoveStreet />} />
-          <Route path="loveismagick" element={<LoveisMagick/>} />
+          <Route path="loveismagick" element={<LoveisMagick />} />
           <Route path="zombie" element={<Zombie />} />
-          <Route path="thekillingmon" element={<TheKillingMon />} />
-          <Route path="starman" element={<Starman/>} />
+          <Route path="thekillingmoon" element={<TheKillingMoon />} />
+          <Route path="starman" element={<Starman />} />
+          <Route path="perfectday" element={<PerfectDay/>} />
         </Route>
       </Routes>
     </BrowserRouter>
