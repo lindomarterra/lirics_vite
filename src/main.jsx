@@ -9,7 +9,7 @@ import Imagine from './page/imagine.jsx'
 import LifeOnMars from './page/lifeonmars.jsx'
 import ZiggyStardust from './page/ziggystardust.jsx'
 import Zombie from './page/zombie.jsx'
-import TheKillingMoon from './page/thekillingmoon.jsx'
+import KillingMoon from './page/killingmoon.jsx'
 import LoveStreet from './page/lovestreet.jsx'
 import LoveisMagick from './page/loveismagick.jsx'
 import Starman from './page/starman.jsx'
@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="lovestreet" element={<LoveStreet />} />
           <Route path="loveismagick" element={<LoveisMagick />} />
           <Route path="zombie" element={<Zombie />} />
-          <Route path="thekillingmoon" element={<TheKillingMoon />} />
+          <Route path="killingmoon" element={<KillingMoon />} />
           <Route path="starman" element={<Starman />} />
           <Route path="perfectday" element={<PerfectDay/>} />
         </Route>
