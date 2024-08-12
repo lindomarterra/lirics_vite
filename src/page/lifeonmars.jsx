@@ -1,5 +1,4 @@
 import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md'
-import { MdOutlineKeyboardDoubleArrowLeft } from 'react-icons/md'
 
 import './general.css'
 import { Link } from 'react-router-dom'
@@ -12,8 +11,8 @@ const Lifeonmars = () => {
         style={{ backgroundColor: '#121212' }}
         className="position-fixed w-100 d-flex justify-content-end p-2 "
       >
-        <div className='position-fixed top-0 start-50 pt-2'>
-          <LogoLink />
+        <div className='position-fixed top-0 start-0 p-2'>
+          <LogoLink/>
         </div>
         <Link
           to="/ziggystardust"
