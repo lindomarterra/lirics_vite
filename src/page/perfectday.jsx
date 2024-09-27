@@ -24,11 +24,11 @@ const PerfectDay = () => {
         <LogoLink />
 
         <Link
-          to="/#"
+          to="/knockinonheavensdoor"
           target="_self"
           className="next_arrow btn btn-outline-light d-flex align-items-center"
         >
-          <span>xxxx</span>
+          <span>Knockin On Heavens Door</span>
           <MdOutlineKeyboardDoubleArrowRight className="fs-4" />
         </Link>
       </nav>

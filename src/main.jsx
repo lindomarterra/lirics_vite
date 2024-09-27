@@ -14,6 +14,8 @@ import LoveStreet from './page/lovestreet.jsx'
 import LoveisMagick from './page/loveismagick.jsx'
 import Starman from './page/starman.jsx'
 import PerfectDay from './page/perfectday.jsx'
+import KnockinOnHeavensDoor from './page/knockinonheavensdoor.jsx'
+import Sunseed from './page/sunseed.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -30,6 +32,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="killingmoon" element={<KillingMoon />} />
           <Route path="starman" element={<Starman />} />
           <Route path="perfectday" element={<PerfectDay/>} />
+          <Route path="knockinonheavensdoor" element={<KnockinOnHeavensDoor/>} />
+          <Route path="sunseed" element={<Sunseed/>} />
+
         </Route>
       </Routes>
     </BrowserRouter>

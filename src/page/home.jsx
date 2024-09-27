@@ -61,6 +61,18 @@ const AllLirics = () => {
       artist: 'Lou Reed',
       link: 'perfectday',
     },
+    {
+      id: 10,
+      title: 'Knockin On Heavens Door',
+      artist: 'Bob Dylan',
+      link: 'knockinonheavensdoor',
+    },
+    {
+      id: 11,
+      title: 'Sunseed',
+      artist: 'Raul Seixas',
+      link: 'sunseed',
+    },
   ])
 
   return (
