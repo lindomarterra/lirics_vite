@@ -5,7 +5,7 @@ import './general.css'
 import { Link } from 'react-router-dom'
 import LogoLink from '../components/logoLink'
 
-const Zombie = () => {
+const KnockinOnHeavensDoor = () => {
   return (
     <body>
       <nav
@@ -73,4 +73,4 @@ const Zombie = () => {
   )
 }
 
-export default Zombie
+export default KnockinOnHeavensDoor

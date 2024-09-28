@@ -136,7 +136,7 @@ const Imagine = () => {
                   className="text-decoration-none"
                   title="E o mundo será como um só"
                 >
-                  And the world will be as one
+                  And the world will live as one
                 </abbr>
               </p>
             </div>

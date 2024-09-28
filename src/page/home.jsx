@@ -73,6 +73,24 @@ const AllLirics = () => {
       artist: 'Raul Seixas',
       link: 'sunseed',
     },
+    {
+      id: 12,
+      title: 'In between days',
+      artist: 'The Cure',
+      link: 'inbetweendays',
+    },
+    {
+      id: 13,
+      title: 'Came as you are',
+      artist: 'Nirvana',
+      link: 'cameasyouare',
+    },
+    {
+      id: 14,
+      title: 'Hurt',
+      artist: 'Jhonny Cash',
+      link: 'hurt',
+    },
   ])
 
   return (

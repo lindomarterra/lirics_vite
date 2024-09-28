@@ -16,6 +16,9 @@ import Starman from './page/starman.jsx'
 import PerfectDay from './page/perfectday.jsx'
 import KnockinOnHeavensDoor from './page/knockinonheavensdoor.jsx'
 import Sunseed from './page/sunseed.jsx'
+import  Inbetweendays from './page/inbetweendays.jsx'
+import Cameasyouare from './page/cameasyouare.jsx'
+import Hurt from './page/hurt.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -31,10 +34,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="zombie" element={<Zombie />} />
           <Route path="killingmoon" element={<KillingMoon />} />
           <Route path="starman" element={<Starman />} />
-          <Route path="perfectday" element={<PerfectDay/>} />
-          <Route path="knockinonheavensdoor" element={<KnockinOnHeavensDoor/>} />
-          <Route path="sunseed" element={<Sunseed/>} />
-
+          <Route path="perfectday" element={<PerfectDay />} />
+          <Route path="knockinonheavensdoor" element={<KnockinOnHeavensDoor />}/>
+          <Route path="sunseed" element={<Sunseed />} />
+          <Route path="inbetweendays" element={<Inbetweendays />} />
+          <Route path="cameasyouare" element={<Cameasyouare />} />
+          <Route path="hurt" element={<Hurt />} />
         </Route>
       </Routes>
     </BrowserRouter>

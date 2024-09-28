@@ -5,7 +5,7 @@ import './general.css'
 import { Link } from 'react-router-dom'
 import LogoLink from '../components/logoLink'
 
-const Zombie = () => {
+const Sunseed = () => {
   return (
     <body>
       <nav
@@ -24,11 +24,11 @@ const Zombie = () => {
         <LogoLink />
 
         <Link
-          to="/#"
+          to="/inbetweendays"
           target="_self"
           className="next_arrow btn btn-outline-light d-flex align-items-center"
         >
-          <span>xxxx</span>
+          <span> In Between Days </span>
           <MdOutlineKeyboardDoubleArrowRight className="fs-4" />
         </Link>
       </nav>
@@ -39,25 +39,80 @@ const Zombie = () => {
           <div className="col-md-6">
             <div className="pb-3">
               <p>You were born at the ending</p>
-              <p>As the curtain came down</p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="Quando a cortina caiu"
+                >
+                  As the curtain came down
+                </abbr>
+              </p>
               <p>I can see you're confused girl but it's all right</p>
-              <p>It's only the chimes</p>
+              <p>
+                It's only the{' '}
+                <abbr className="text-decoration-none" title="sinos">
+                  chimes
+                </abbr>
+              </p>
               <p>Announcing a new time</p>
               <p>You see now</p>
             </div>
             <div className="pb-3">
               <p>Boats are cruising the deserts</p>
-              <p>Oceans cracked by the heat</p>
-              <p>People drowning in raindrops</p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="Oceanos rachados pelo calor"
+                >
+                  Oceans cracked by the heat
+                </abbr>
+              </p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="Pessoas se afogando em gotas de chuva"
+                >
+                  People drowning in raindrops
+                </abbr>
+              </p>
               <p>But it's all right</p>
-              <p>Stand on your own feet</p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="Não é uma derrota"
+                >
+                  It's not a defeat
+                </abbr>
+              </p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="fique de pé sozinho"
+                >
+                  Stand on your own feet
+                </abbr>
+              </p>
             </div>
           </div>
           <div className="col-md-6">
             <div className="pb-3">
               <p>Right now the sun doesn't shine</p>
-              <p>He's loaded on wine</p>
-              <p>Though I can laugh in the storm</p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="Ele está carregado de vinho"
+                >
+                  He's loaded on wine
+                </abbr>
+              </p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="Embora eu possa rir na tempestade"
+                >
+                  Though I can laugh in the storm
+                </abbr>
+              </p>
               <p>Bacause I was born</p>
               <p>When the sun used to</p>
               <p>Shine in June</p>
@@ -69,4 +124,4 @@ const Zombie = () => {
   )
 }
 
-export default Zombie
+export default Sunseed
