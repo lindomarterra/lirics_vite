@@ -28,7 +28,7 @@ const InBetweenDays = () => {
           target="_self"
           className="next_arrow btn btn-outline-light d-flex align-items-center"
         >
-          <span> Come as you are </span>
+          <span> Came as you are </span>
           <MdOutlineKeyboardDoubleArrowRight className="fs-4" />
         </Link>
       </nav>
