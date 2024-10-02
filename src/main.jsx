@@ -19,6 +19,8 @@ import Sunseed from './page/sunseed.jsx'
 import  Inbetweendays from './page/inbetweendays.jsx'
 import Cameasyouare from './page/cameasyouare.jsx'
 import Hurt from './page/hurt.jsx'
+import Themanwhosoldtheworld from './page/themanwhosoldtheworld.jsx'
+import Howcouldiknow from './page/howcouldiknow.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -40,6 +42,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="inbetweendays" element={<Inbetweendays />} />
           <Route path="cameasyouare" element={<Cameasyouare />} />
           <Route path="hurt" element={<Hurt />} />
+          <Route path="themanwhosoldtheworld" element={<Themanwhosoldtheworld />} />
+          <Route path="howcouldiknow" element={<Howcouldiknow/>} />
+
         </Route>
       </Routes>
     </BrowserRouter>

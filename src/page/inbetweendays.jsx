@@ -24,7 +24,7 @@ const InBetweenDays = () => {
         <LogoLink />
 
         <Link
-          to="/comeasyouare"
+          to="/cameasyouare"
           target="_self"
           className="next_arrow btn btn-outline-light d-flex align-items-center"
         >

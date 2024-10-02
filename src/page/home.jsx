@@ -91,6 +91,18 @@ const AllLirics = () => {
       artist: 'Jhonny Cash',
       link: 'hurt',
     },
+    {
+      id: 15,
+      title: 'The man who sold the world',
+      artist: 'David Bowie',
+      link: 'themanwhosoldtheworld',
+    },
+    {
+      id: 16,
+      title: 'How could i know',
+      artist: 'Raul Seixas ',
+      link: 'howcouldiknow',
+    },
   ])
 
   return (
