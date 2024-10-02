@@ -13,12 +13,12 @@ const Hurt = () => {
         className="navbar position-fixed w-100"
       >
         <Link
-          to="/cameasyouare"
+          to="/comeasyouare"
           target="_self"
           className="next_arrow btn btn-outline-light d-flex align-items-center"
         >
           <MdOutlineKeyboardDoubleArrowLeft className="fs-4" />
-          <span> Came as you are </span>
+          <span> Come as you are </span>
         </Link>
 
         <LogoLink />

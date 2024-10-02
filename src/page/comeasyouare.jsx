@@ -5,7 +5,7 @@ import './general.css'
 import { Link } from 'react-router-dom'
 import LogoLink from '../components/logoLink'
 
-const Cameasyouare = () => {
+const Comeasyouare = () => {
   return (
     <body>
       <nav
@@ -87,4 +87,4 @@ const Cameasyouare = () => {
   )
 }
 
-export default Cameasyouare
+export default Comeasyouare

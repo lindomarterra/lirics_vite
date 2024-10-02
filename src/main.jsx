@@ -17,7 +17,7 @@ import PerfectDay from './page/perfectday.jsx'
 import KnockinOnHeavensDoor from './page/knockinonheavensdoor.jsx'
 import Sunseed from './page/sunseed.jsx'
 import  Inbetweendays from './page/inbetweendays.jsx'
-import Cameasyouare from './page/cameasyouare.jsx'
+import Comeasyouare from './page/comeasyouare.jsx'
 import Hurt from './page/hurt.jsx'
 import Themanwhosoldtheworld from './page/themanwhosoldtheworld.jsx'
 import Howcouldiknow from './page/howcouldiknow.jsx'
@@ -40,7 +40,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="knockinonheavensdoor" element={<KnockinOnHeavensDoor />}/>
           <Route path="sunseed" element={<Sunseed />} />
           <Route path="inbetweendays" element={<Inbetweendays />} />
-          <Route path="cameasyouare" element={<Cameasyouare />} />
+          <Route path="comeasyouare" element={<Comeasyouare />} />
           <Route path="hurt" element={<Hurt />} />
           <Route path="themanwhosoldtheworld" element={<Themanwhosoldtheworld />} />
           <Route path="howcouldiknow" element={<Howcouldiknow/>} />

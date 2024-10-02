@@ -81,9 +81,9 @@ const AllLirics = () => {
     },
     {
       id: 13,
-      title: 'Came as you are',
+      title: 'Come as you are',
       artist: 'Nirvana',
-      link: 'cameasyouare',
+      link: 'comeasyouare',
     },
     {
       id: 14,
