@@ -21,6 +21,8 @@ import Comeasyouare from './page/comeasyouare.jsx'
 import Hurt from './page/hurt.jsx'
 import Themanwhosoldtheworld from './page/themanwhosoldtheworld.jsx'
 import Howcouldiknow from './page/howcouldiknow.jsx'
+import Linger from './page/linger.jsx'
+import Imeltwithyou from './page/imeltwithyou.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -42,9 +44,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="inbetweendays" element={<Inbetweendays />} />
           <Route path="comeasyouare" element={<Comeasyouare />} />
           <Route path="hurt" element={<Hurt />} />
-          <Route path="themanwhosoldtheworld" element={<Themanwhosoldtheworld />} />
-          <Route path="howcouldiknow" element={<Howcouldiknow/>} />
-
+          <Route path="themanwhosoldtheworld" element={<Themanwhosoldtheworld />}/>
+          <Route path="howcouldiknow" element={<Howcouldiknow />} />
+          <Route path="linger" element={<Linger/>} />
+          <Route path="imeltwithyou" element={<Imeltwithyou/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

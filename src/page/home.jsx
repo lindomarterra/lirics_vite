@@ -103,6 +103,18 @@ const AllLirics = () => {
       artist: 'Raul Seixas ',
       link: 'howcouldiknow',
     },
+    {
+      id: 17,
+      title: 'Linger',
+      artist: 'The Cranberries ',
+      link: 'linger',
+    },
+    {
+      id: 18,
+      title: 'I melt with you',
+      artist: 'English dogs ',
+      link: 'imeltwithyou',
+    },
   ])
 
   return (
