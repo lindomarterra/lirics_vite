@@ -115,6 +115,18 @@ const AllLirics = () => {
       artist: 'English dogs ',
       link: 'imeltwithyou',
     },
+    {
+      id: 19,
+      title: 'Karma chameleon',
+      artist: 'Culture club',
+      link: 'karmachameleon',
+    },
+    {
+      id: 20,
+      title: 'Orange juice',
+      artist: 'Raul Seixas ',
+      link: 'orangejuice',
+    },
   ])
 
   return (

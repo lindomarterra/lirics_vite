@@ -23,6 +23,8 @@ import Themanwhosoldtheworld from './page/themanwhosoldtheworld.jsx'
 import Howcouldiknow from './page/howcouldiknow.jsx'
 import Linger from './page/linger.jsx'
 import Imeltwithyou from './page/imeltwithyou.jsx'
+import Karmachameleon from './page/karmachameleon.jsx'
+import Orangejuice from './page/orangejuice.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -48,6 +50,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="howcouldiknow" element={<Howcouldiknow />} />
           <Route path="linger" element={<Linger/>} />
           <Route path="imeltwithyou" element={<Imeltwithyou/>}/>
+          <Route path="karmachameleon" element={<Karmachameleon/>} />
+          <Route path="orangejuice" element={<Orangejuice/>} />
         </Route>
       </Routes>
     </BrowserRouter>
