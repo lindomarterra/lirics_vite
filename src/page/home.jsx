@@ -133,6 +133,24 @@ const AllLirics = () => {
       artist: 'Raul Seixas ',
       link: 'gitaiam',
     },
+    {
+      id: 22,
+      title: 'Polly',
+      artist: 'Nirvana ',
+      link: 'polly',
+    },
+    {
+      id: 23,
+      title: 'Sorrow',
+      artist: 'David Bowie ',
+      link: 'sorrow',
+    },
+    {
+      id: 24,
+      title: 'America Jesus',
+      artist: 'Bad Religion ',
+      link: 'americanjesus',
+    },
   ])
 
   return (

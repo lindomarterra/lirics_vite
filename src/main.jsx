@@ -26,6 +26,9 @@ import Imeltwithyou from './page/imeltwithyou.jsx'
 import Karmachameleon from './page/karmachameleon.jsx'
 import Orangejuice from './page/orangejuice.jsx'
 import Gitaiam from './page/gitaiam.jsx'
+import Polly from './page/polly.jsx'
+import Sorrow from './page/sorrow.jsx'
+import Americanjesus from './page/americanjesus.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -42,18 +45,27 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="killingmoon" element={<KillingMoon />} />
           <Route path="starman" element={<Starman />} />
           <Route path="perfectday" element={<PerfectDay />} />
-          <Route path="knockinonheavensdoor" element={<KnockinOnHeavensDoor />}/>
+          <Route
+            path="knockinonheavensdoor"
+            element={<KnockinOnHeavensDoor />}
+          />
           <Route path="sunseed" element={<Sunseed />} />
           <Route path="inbetweendays" element={<Inbetweendays />} />
           <Route path="comeasyouare" element={<Comeasyouare />} />
           <Route path="hurt" element={<Hurt />} />
-          <Route path="themanwhosoldtheworld" element={<Themanwhosoldtheworld />}/>
+          <Route
+            path="themanwhosoldtheworld"
+            element={<Themanwhosoldtheworld />}
+          />
           <Route path="howcouldiknow" element={<Howcouldiknow />} />
-          <Route path="linger" element={<Linger/>} />
-          <Route path="imeltwithyou" element={<Imeltwithyou/>}/>
-          <Route path="karmachameleon" element={<Karmachameleon/>} />
-          <Route path="orangejuice" element={<Orangejuice/>} />
-          <Route path="gitaiam" element={<Gitaiam/>} />
+          <Route path="linger" element={<Linger />} />
+          <Route path="imeltwithyou" element={<Imeltwithyou />} />
+          <Route path="karmachameleon" element={<Karmachameleon />} />
+          <Route path="orangejuice" element={<Orangejuice />} />
+          <Route path="gitaiam" element={<Gitaiam />} />
+          <Route path="polly" element={<Polly />} />
+          <Route path="sorrow" element={<Sorrow />} />
+          <Route path="americanjesus" element={<Americanjesus />} />
         </Route>
       </Routes>
     </BrowserRouter>
