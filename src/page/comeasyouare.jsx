@@ -46,7 +46,7 @@ const Comeasyouare = () => {
             <div className="pb-3">
               <p>Take your time, hurry up</p>
               <p>Choice is yours, don't be late</p>
-              <p>Choice is yours, don't be late</p>
+              <p>Take a rest, as a friend </p>
             </div>
             <div className="pb-3">
               <p>As an old memory, yeah</p>

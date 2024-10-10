@@ -25,6 +25,7 @@ import Linger from './page/linger.jsx'
 import Imeltwithyou from './page/imeltwithyou.jsx'
 import Karmachameleon from './page/karmachameleon.jsx'
 import Orangejuice from './page/orangejuice.jsx'
+import Gitaiam from './page/gitaiam.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -52,6 +53,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="imeltwithyou" element={<Imeltwithyou/>}/>
           <Route path="karmachameleon" element={<Karmachameleon/>} />
           <Route path="orangejuice" element={<Orangejuice/>} />
+          <Route path="gitaiam" element={<Gitaiam/>} />
         </Route>
       </Routes>
     </BrowserRouter>

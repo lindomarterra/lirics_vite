@@ -127,6 +127,12 @@ const AllLirics = () => {
       artist: 'Raul Seixas ',
       link: 'orangejuice',
     },
+    {
+      id: 21,
+      title: 'Gita i am',
+      artist: 'Raul Seixas ',
+      link: 'gitaiam',
+    },
   ])
 
   return (
