@@ -70,7 +70,7 @@ const Starman = () => {
               <p>
                 <abbr
                   className="text-decoration-none"
-                  title="Came back like slow voice on a wave of pha_a_ase"
+                  title="Voltou como uma voz lenta em uma onda de fase"
                 >
                   Came back like slow voice on a wave of pha_a_ase
                 </abbr>

@@ -62,13 +62,28 @@ const PerfectDay = () => {
             <div className="pb-3">
               <p>Just a perfect day,</p>
               <p>Problems all left alone,</p>
-              <p>Weekenders on our own.</p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="fins de semana por conta própria"
+                >
+                  Weekenders on our own.
+                </abbr>
+              </p>
               <p>It's such fun.</p>
             </div>
             <div className="pb-3">
               <p>Just a perfect day,</p>
               <p>You made me forget myself.</p>
-              <p>I thought I was someone else,</p>
+              <p>
+                <abbr
+                  className="text-decoration-none"
+                  title="I thought I was someone else"
+                >
+                  I thought I was someone else
+                </abbr>
+                ,
+              </p>
               <p>Someone good.</p>
             </div>
             <div className="pb-3">
