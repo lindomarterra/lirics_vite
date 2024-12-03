@@ -58,7 +58,7 @@ const Sunseed = () => {
           </div>
           <div className="col-md-3">
             <div className="pb-3">
-              <p>I am the star of the starlights</p>
+              <p>I am the light of the starlights</p>
               <p>I am the child of the Moon</p>
               <p>Yes, I am your hatred of love</p>
               <p>I am too late and too soon</p>
@@ -102,7 +102,7 @@ const Sunseed = () => {
               <p>Yes, I am the hope of the wisher</p>
             </div>
             <div className="pb-3">
-              <p>Yes, I am the housewife and the whore</p>
+              <p>I am the housewife and the whore</p>
               <p>Hunting the markets asleep</p>
               <p>I am the devil at your door</p>
               <p>I'm shallow, wide and deep</p>
@@ -112,13 +112,13 @@ const Sunseed = () => {
             <div className="pb-3">
               <p>I am the law of Thelema</p>
               <p>I am the fang of the shark</p>
-              <p>Yes, I am the eyes of the blind man</p>
-              <p>Yes, I am the light in the dark</p>
+              <p>I am the eyes of the blind man</p>
+              <p>I am the light in the dark</p>
             </div>
             <div className="pb-3">
-              <p>Yes, I am bitter in your tongue</p>
+              <p>I am bitter in your tongue</p>
               <p>Mother, father and the riddle</p>
-              <p>Yes, I am the son yet to come</p>
+              <p>I am the son yet to come</p>
               <p>Yes, I'm the beginning, the end and the middle</p>
             </div>
           </div>
