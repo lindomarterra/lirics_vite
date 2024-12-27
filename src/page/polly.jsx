@@ -5,7 +5,7 @@ import './general.css'
 import { Link } from 'react-router-dom'
 import LogoLink from '../components/logoLink'
 
-const Polly = () => {
+const LoveWillTearUsApart = () => {
   return (
     <body>
       <nav
@@ -34,60 +34,52 @@ const Polly = () => {
       </nav>
 
       <div style={{ paddingTop: '70px' }} className="container">
-        <h2 className="fst-italic fs-6 p-2 mb-4"> Polly (G) </h2>
+        <h2 className="fst-italic fs-6 p-2 mb-4"> Love will tear us apart (D) </h2>
         <div style={{ lineHeight: '1rem' }} className="row text-center">
           <div className="col-md-4">
             <div className="pb-3">
-              <p> Polly wants a cracker</p>
-              <p> I think I should get off her first</p>
-              <p> I think she wants some water</p>
-              <p> To put out the blow torch</p>
+              <p> When routine bites hard </p>
+              <p> and ambitions are low</p>
+              <p> And resentment rides high, </p>
+              <p> but emotions won't grow</p>
+              <p>And we're changing our ways, </p>
+              <p>taking different roads</p>
             </div>
             <div className="pb-3">
-              <p> Isn't me, have a seed</p>
-              <p> Let me clip your dirty wings</p>
-              <p> Let me take a ride, cut yourself</p>
-              <p> Want some help, please myself</p>
-              <p> Got some rope, haven't told</p>
-              <p> I promise you, I have been true</p>
-              <p> Let me take a ride, cut yourself</p>
-              <p> Want some help, please myself</p>
+              <p>Then love, love will tear us apart again</p>
+              <p>Love, love will tear us apart again</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="pb-3">
-              <p> Polly wants a cracker</p>
-              <p> Maybe she would like some food</p>
-              <p> She asks me to untie her</p>
-              <p> A chase would be nice for a few</p>
+              <p>Why is the bedroom so cold? </p>
+              <p>You've turned away on your side</p>
+              <p>Is my timing that flawed? </p>
+              <p>Our respect runs so dry</p>
+              <p>Yet there's still this appeal </p>
+              <p>that we've kept through our lives</p>
             </div>
             <div className="pb-3">
-              <p> Isn't me, have a seed</p>
-              <p> Let me clip your dirty wings</p>
-              <p> Let me take a ride, cut yourself</p>
-              <p> Want some help, please myself</p>
-              <p> Got some rope, haven't told</p>
-              <p> I promise you, I have been true</p>
-              <p> Let me take a ride, cut yourself</p>
-              <p> Want some help, please myself</p>
+              <p>But love, love will tear us apart again</p>
+              <p>Love, love will tear us apart again</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="pb-3">
-              <p> Polly says her back hurts</p>
-              <p> And she's just as bored as me</p>
-              <p> She caught me off my guard</p>
-              <p> Amazes me the will of instinct</p>
+              <p>You cry out in your sleep, </p>
+              <p>all my failings exposed</p>
+              <p>There's a taste in my mouth </p>
+              <p>as desperation takes hold</p>
+              <p>just that something so good, </p>
+              <p>just can't function no more</p>
             </div>
             <div className="pb-3">
-              <p> Isn't me, have a seed</p>
-              <p> Let me clip your dirty wings</p>
-              <p> Let me take a ride, cut yourself</p>
-              <p> Want some help, please myself</p>
-              <p> Got some rope, haven't told</p>
-              <p> I promise you, I have been true</p>
-              <p> Let me take a ride, cut yourself</p>
-              <p> Want some help, please myself</p>
+              <p>Then love, love will tear us apart again</p>
+              <p>Love, love will tear us apart again</p>
+            </div>
+            <div className="pb-3">
+              <p>love, love will tear us apart again</p>
+              <p>Love, love will tear us apart again</p>
             </div>
           </div>
         </div>
@@ -96,4 +88,4 @@ const Polly = () => {
   )
 }
 
-export default Polly
+export default LoveWillTearUsApart

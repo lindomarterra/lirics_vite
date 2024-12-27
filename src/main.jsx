@@ -26,9 +26,9 @@ import Imeltwithyou from './page/imeltwithyou.jsx'
 import Karmachameleon from './page/karmachameleon.jsx'
 import Orangejuice from './page/orangejuice.jsx'
 import Gitaiam from './page/gitaiam.jsx'
-import Polly from './page/polly.jsx'
 import Sorrow from './page/sorrow.jsx'
 import Americanjesus from './page/americanjesus.jsx'
+import LoveWillTearUsApart from './page/polly.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -63,7 +63,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="karmachameleon" element={<Karmachameleon />} />
           <Route path="orangejuice" element={<Orangejuice />} />
           <Route path="gitaiam" element={<Gitaiam />} />
-          <Route path="polly" element={<Polly />} />
+          <Route path="lovewilltearusapart" element={<LoveWillTearUsApart />} />
           <Route path="sorrow" element={<Sorrow />} />
           <Route path="americanjesus" element={<Americanjesus />} />
         </Route>

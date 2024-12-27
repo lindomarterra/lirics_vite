@@ -13,12 +13,12 @@ const Sorrow = () => {
         className="navbar position-fixed w-100"
       >
         <Link
-          to="/polly"
+          to="/lovewilltearusapart"
           target="_self"
           className="next_arrow btn btn-outline-light d-flex align-items-center"
         >
           <MdOutlineKeyboardDoubleArrowLeft className="fs-4" />
-          <span>Polly</span>
+          <span>Love will tear us apart</span>
         </Link>
 
         <LogoLink />

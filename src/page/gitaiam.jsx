@@ -24,11 +24,11 @@ const Sunseed = () => {
         <LogoLink />
 
         <Link
-          to="/polly"
+          to="/lovewilltearusapart"
           target="_self"
           className="next_arrow btn btn-outline-light d-flex align-items-center"
         >
-          <span> Polly </span>
+          <span> Love will tear us apart </span>
           <MdOutlineKeyboardDoubleArrowRight className="fs-4" />
         </Link>
       </nav>
@@ -38,10 +38,18 @@ const Sunseed = () => {
         <div style={{ lineHeight: '1rem' }} className="row text-center">
           <div className="col-md-3">
             <div className="pb-3">
-              <p><i>Since the beginning of time</i></p>
-              <p><i>Man has search for the great answer</i></p>
-              <p><i>It was given</i></p>
-              <p><i>Today I give it once more</i></p>
+              <p>
+                <i>Since the beginning of time</i>
+              </p>
+              <p>
+                <i>Man has search for the great answer</i>
+              </p>
+              <p>
+                <i>It was given</i>
+              </p>
+              <p>
+                <i>Today I give it once more</i>
+              </p>
             </div>
             <div className="pb-3">
               <p>Sometimes you ask me a question</p>

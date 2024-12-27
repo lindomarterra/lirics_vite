@@ -135,9 +135,9 @@ const AllLirics = () => {
     },
     {
       id: 22,
-      title: 'Polly',
-      artist: 'Nirvana ',
-      link: 'polly',
+      title: 'Love will tear us apart',
+      artist: 'Joy Division ',
+      link: 'lovewilltearusapart',
     },
     {
       id: 23,
