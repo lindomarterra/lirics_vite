@@ -34,7 +34,7 @@ const Linger = () => {
       </nav>
 
       <div style={{ paddingTop: '70px' }} className="container">
-        <h2 className="fst-italic fs-6 p-2 mb-4"> Linger (D)</h2>
+        <h2 className="fst-italic fs-6 p-2 mb-4"> LINGER (D)</h2>
         <div style={{ lineHeight: '1rem' }} className="row text-center">
           <div className="col-md-4">
             <div className="pb-3">
