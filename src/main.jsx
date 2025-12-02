@@ -8,6 +8,7 @@ import Home from './page/home.jsx'
 import Imagine from './page/imagine.jsx'
 import LifeOnMars from './page/lifeonmars.jsx'
 import ZiggyStardust from './page/ziggystardust.jsx'
+import SpaceOddity from './page/spaceoddity.jsx'
 import Zombie from './page/zombie.jsx'
 import KillingMoon from './page/killingmoon.jsx'
 import LoveStreet from './page/lovestreet.jsx'
@@ -38,6 +39,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Home />} />
           <Route path="lifeonmars" element={<LifeOnMars />} />
           <Route path="ziggystardust" element={<ZiggyStardust />} />
+          <Route path="spaceoddity" element={<SpaceOddity />} />
           <Route path="imagine" element={<Imagine />} />
           <Route path="lovestreet" element={<LoveStreet />} />
           <Route path="loveismagick" element={<LoveisMagick />} />
